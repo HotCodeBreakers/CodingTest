@@ -20,6 +20,5 @@ while let input = readLine() {
     let v = lpv[2]
     count += 1
 
-
     print("Case \(count): \(((v/p)*l) + (min(l, v%p)))")
 }
